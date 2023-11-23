@@ -25,11 +25,11 @@ const PopularDestinations = () => {
       </div>
 
       <div className="flex gap-5 mt-10 ml-[10rem] ">
-        <div className="relative w-[300px] h-[400px] ">
+        <div className="relative ">
           <Image
             src={img4}
             alt="Destination Image"
-            className="rounded-[20px] w-[300px] h-[400px] "
+            className="rounded-[20px] w-[350px] h-[500px] "
           />
           <div className="flex flex-col space-y-3 absolute bottom-5 justify-center left-14 items-center text-white">
             <span className="text-3xl font-semibold">Bali</span>
@@ -41,7 +41,7 @@ const PopularDestinations = () => {
           <Image
             src={img2}
             alt="Destination Image"
-            className="rounded-[20px] w-[300px] h-[400px] "
+            className="rounded-[20px] w-[350px] h-[500px] "
           />
           <div className="flex flex-col space-y-3 absolute bottom-5 justify-center left-14 items-center text-white">
             <span className="text-3xl font-semibold">MyKines Island</span>
@@ -53,7 +53,7 @@ const PopularDestinations = () => {
           <Image
             src={img3}
             alt="Destination Image"
-            className="rounded-[20px] w-[300px] h-[400px] "
+            className="rounded-[20px] w-[350px] h-[500px] "
           />
           <div className="flex flex-col space-y-3 absolute bottom-5 justify-center left-14 items-center text-white">
             <span className="text-3xl font-semibold">Uludag</span>
@@ -65,7 +65,7 @@ const PopularDestinations = () => {
           <Image
             src={img4}
             alt="Destination Image"
-            className="rounded-[20px] w-[300px] h-[400px] "
+            className="rounded-[20px] w-[350px] h-[500px] "
           />
           <div className="flex flex-col space-y-3 absolute bottom-5 justify-center left-14 items-center text-white">
             <span className="text-3xl font-semibold">Bern</span>

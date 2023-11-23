@@ -1,6 +1,7 @@
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import PopularDestinations from "./components/PopularDestinations";
+import BookingSection from "./components/BookingSection";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <PopularDestinations />
+      <BookingSection />
     </main>
   );
 }
