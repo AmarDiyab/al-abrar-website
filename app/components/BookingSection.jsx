@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const BookingSection = () => {
   return (
-    <div className="flex mx-[10rem] my-[10rem] justify-between ">
+    <div className="flex mx-[10rem] my-[10rem] justify-between text-[#0d3d4e] ">
       <div className="flex flex-col max-w-[33%] gap-5 ">
         <span className="text-4xl font-semibold">
           Fun for them, made easy for you
