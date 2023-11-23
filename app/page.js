@@ -3,6 +3,7 @@ import AboutSection from "./components/AboutSection";
 import PopularDestinations from "./components/PopularDestinations";
 import BookingSection from "./components/BookingSection";
 import Gallery from "./components/Gallery";
+import Testimonials from "./components/Testimonials";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <PopularDestinations />
       <BookingSection />
       <Gallery />
+      <Testimonials />
     </main>
   );
 }

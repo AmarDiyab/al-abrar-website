@@ -12,7 +12,7 @@ const Gallery = () => {
       <span className="font-medium">GALLERY OF OUR TRIPS</span>
       <span className="text-5xl font-semibold ">Completed Journey</span>
 
-      <div className="bg-[#f0eded] h-[] -mx-[10rem] my-[15rem]  ">
+      <div className="bg-[#f0eded] -mx-[10rem] mt-[15rem]  ">
 
       <div className="grid grid-cols-3 gap-4 -my-[10rem] mx-[10rem]  ">
         <div className="col-span-1">
