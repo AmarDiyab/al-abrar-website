@@ -4,6 +4,7 @@ import PopularDestinations from "./components/PopularDestinations";
 import BookingSection from "./components/BookingSection";
 import Gallery from "./components/Gallery";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <BookingSection />
       <Gallery />
       <Testimonials />
+      <Footer />
     </main>
   );
 }
