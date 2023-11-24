@@ -9,7 +9,7 @@ const Navbar = () => {
     <Nav className='px-[10rem] py-5 text-white z-50 relative items-center ' >
         <NavbarBrand>
             {/* <Image src="/" alt='logo' /> */}
-            <span className='text-2xl'><span className='font-bold '>Go</span>Travel</span>
+            <span className='text-2xl'>Al Abrar</span>
         </NavbarBrand>
         <NavbarContent justify='end' className='space-x-10 text-sm ' >
             <NavbarItem>
@@ -39,31 +39,6 @@ const Navbar = () => {
             </NavbarItem>
         </NavbarContent>
     </Nav>
-
-
-    // <div className='px-[10rem] py-5 flex justify-between text-white '>
-    //     <div className='flex'>
-    //         {/* <Image src={logo} alt='logo' /> */}
-    //         <span><span className='font-bold'>Go</span>Travel</span>
-    //     </div>
-    //     <div className='flex space-x-10  '>
-    //         <Link href="/">
-    //             Demos
-    //         </Link>
-    //         <Link href="/">
-    //             About
-    //         </Link>
-    //         <Link href="/">
-    //             Blog
-    //         </Link>
-    //         <Link href="/">
-    //             Pages
-    //         </Link>
-    //         <Link href="/">
-    //             Contact
-    //         </Link>
-    //     </div>
-    // </div>
   )
 }
 

@@ -25,18 +25,18 @@ const BookingSection = () => {
         <div className="flex flex-col">
           <h1 className="text-2xl font-semibold">Book Car</h1>
           <span>Lorem ipsum dolor sit amet consectetur.</span>
-          <div className="flex items-center space-x-2 mt-3">
+          <div className="flex items-center space-x-2 mt-3 group cursor-pointer ">
             <span className="underline">Start your trips</span>
-            <FaArrowRightLong />
+            <FaArrowRightLong className="group-hover:ml-4 transition-all duration-300 ease-in-out " />
           </div>
         </div>
 
         <div className="flex flex-col">
           <h1 className="text-2xl font-semibold">Book Hotel</h1>
           <span>Lorem ipsum dolor sit amet consectetur.</span>
-          <div className="flex items-center space-x-2 mt-3">
+          <div className="flex items-center space-x-2 group cursor-pointer mt-3">
             <span className="underline">Start your trips</span>
-            <FaArrowRightLong />
+            <FaArrowRightLong className="group-hover:ml-4 transition-all duration-300 ease-in-out " />
           </div>
         </div>
       </div>

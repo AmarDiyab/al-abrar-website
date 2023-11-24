@@ -14,7 +14,7 @@ const Gallery = () => {
 
       <div className="bg-[#f0eded] -mx-[10rem] mt-[15rem]  ">
         <div className="grid grid-cols-3 gap-4 -my-[10rem] mx-[10rem] text-white  ">
-          <div className="col-span-1 relative">
+          <div className="col-span-1 relative cursor-pointer ">
             <Image
               src={img1}
               alt="First Image"
@@ -26,7 +26,8 @@ const Gallery = () => {
             </div>
             <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#44616b] to-transparent  h-[200px] z-10 rounded-2xl  "></div>
           </div>
-          <div className="col-span-2 relative">
+
+          <div className="col-span-2 relative cursor-pointer">
             <Image
               src={img2}
               alt="Second Image"
@@ -39,7 +40,7 @@ const Gallery = () => {
             <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#44616b] to-transparent  h-[200px] z-10 rounded-2xl  "></div>
           </div>
 
-          <div className="col-span-1 relative">
+          <div className="col-span-1 relative cursor-pointer">
             <Image
               src={img3}
               alt="Third Image"
@@ -51,7 +52,8 @@ const Gallery = () => {
             </div>
             <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#44616b] to-transparent  h-[200px] z-10 rounded-2xl  "></div>
           </div>
-          <div className="col-span-1 relative">
+
+          <div className="col-span-1 relative cursor-pointer">
             <Image
               src={img4}
               alt="Fourth Image"
@@ -63,7 +65,8 @@ const Gallery = () => {
             </div>
             <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#44616b] to-transparent  h-[200px] z-10 rounded-2xl  "></div>
           </div>
-          <div className="col-span-1 relative ">
+
+          <div className="col-span-1 relative cursor-pointer ">
             <Image
               src={img5}
               alt="Fifth Image"

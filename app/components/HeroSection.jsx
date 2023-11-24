@@ -14,7 +14,7 @@ const HeroSection = () => {
             Explore the world with exciting people
           </h1>
           <span>We help people to find ideal company for the join trips</span>
-          <div className="flex space-x-3 justify-center items-center bg-[#d9ed83] text-[#0d3d4e] rounded-full max-w-[30%] px-7 py-3 ">
+          <div className="flex space-x-3 justify-center items-center bg-[#d9ed83] text-[#0d3d4e] hover:bg-[#d6e59a]  cursor-pointer rounded-full max-w-[30%] px-7 py-3 ">
             <button className="text-xs font-semibold">Start your trips </button>
             <FaArrowRightLong />
           </div>
@@ -22,11 +22,11 @@ const HeroSection = () => {
 
         <div className="flex flex-col mx-[10rem] mt-[3rem] text-white z-50 relative ">
           <div className="flex flex-row-reverse gap-4 items-center w-full ">
-            <button className="bg-white text-[#0d3d4e] rounded-full px-4 py-2 ">
+            <button className="bg-[#ffffff4a] text-[#fff] hover:bg-white hover:text-[#0d3d4e] rounded-full px-4 py-2 ">
               <FaArrowRightLong />
             </button>
             <span>1/4</span>
-            <button className="bg-white text-[#0d3d4e] rounded-full px-4 py-2 ">
+            <button className="bg-[#ffffff4a] text-[#fff] hover:bg-white hover:text-[#0d3d4e] rounded-full px-4 py-2 ">
               <FaArrowLeftLong />
             </button>
           </div>
