@@ -20,10 +20,11 @@ const Gallery = () => {
               alt="First Image"
               className="w-full h-[350px] rounded-2xl "
             />
-            <div className="absolute flex flex-col bottom-5 left-5 ">
+            <div className="absolute flex flex-col bottom-5 left-5 z-20 ">
               <span className="text-3xl font-semibold">Rome</span>
               <span className="font-extralight">543 user travel here</span>
             </div>
+            <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#44616b] to-transparent  h-[200px] z-10 rounded-2xl  "></div>
           </div>
           <div className="col-span-2 relative">
             <Image
@@ -31,10 +32,11 @@ const Gallery = () => {
               alt="Second Image"
               className="w-full h-[350px] rounded-2xl "
             />
-             <div className="absolute flex flex-col bottom-5 left-5 ">
+             <div className="absolute flex flex-col bottom-5 left-5 z-20 ">
               <span className="text-3xl font-semibold">Milan</span>
               <span className="font-extralight">543 user travel here</span>
             </div>
+            <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#44616b] to-transparent  h-[200px] z-10 rounded-2xl  "></div>
           </div>
 
           <div className="col-span-1 relative">
@@ -43,10 +45,11 @@ const Gallery = () => {
               alt="Third Image"
               className="w-full h-[350px] rounded-2xl"
             />
-             <div className="absolute flex flex-col bottom-5 left-5 ">
+             <div className="absolute flex flex-col bottom-5 left-5 z-20 ">
               <span className="text-3xl font-semibold">Raja Ampat</span>
               <span className="font-extralight">53 user travel here</span>
             </div>
+            <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#44616b] to-transparent  h-[200px] z-10 rounded-2xl  "></div>
           </div>
           <div className="col-span-1 relative">
             <Image
@@ -54,10 +57,11 @@ const Gallery = () => {
               alt="Fourth Image"
               className="w-full h-[350px] rounded-2xl"
             />
-             <div className="absolute flex flex-col bottom-5 left-5 ">
+             <div className="absolute flex flex-col bottom-5 left-5 z-20 ">
               <span className="text-3xl font-semibold">Tiga Warna</span>
               <span className="font-extralight">513 user travel here</span>
             </div>
+            <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#44616b] to-transparent  h-[200px] z-10 rounded-2xl  "></div>
           </div>
           <div className="col-span-1 relative ">
             <Image
@@ -65,10 +69,11 @@ const Gallery = () => {
               alt="Fifth Image"
               className="w-full h-[350px] rounded-2xl "
             />
-             <div className="absolute flex flex-col bottom-5 left-5 ">
+             <div className="absolute flex flex-col bottom-5 left-5 z-20">
               <span className="text-3xl font-semibold">Sempu Beach</span>
               <span className="font-extralight">213 user travel here</span>
             </div>
+            <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#44616b] to-transparent  h-[200px] z-10 rounded-2xl  "></div>
           </div>
         </div>
 
