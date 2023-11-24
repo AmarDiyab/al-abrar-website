@@ -10,6 +10,10 @@ module.exports = {
       backgroundImage: {
         "hero-section-bg": "url('../app/assets/hero-section-bg.jpeg')"
       },
+      fontFamily: {
+        sans: ['var(--font-poppins)'],
+        mono: ['var(--font-roboto-mono)'],
+      },
     },
   },
   plugins: [],

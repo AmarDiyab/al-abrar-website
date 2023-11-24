@@ -12,7 +12,7 @@ const Testimonials = () => {
   return (
     <div className="flex mx-[10rem] my-[5rem] text-[#0d3d4e] justify-between ">
       <div className="flex flex-col max-w-[50%] space-y-5">
-        <span className="text-5xl font-semibold">What our happy client</span>
+        <h1 className="text-5xl font-semibold">What our happy client</h1>
         <span>
           <i>&quot;</i>Jhon De is a native of the redion Che wac a hoet horcelf
           before she started offering her service to other people, so she knows

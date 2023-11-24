@@ -7,9 +7,9 @@ const BookingSection = () => {
   return (
     <div className="flex mx-[10rem] my-[10rem] justify-between text-[#0d3d4e] ">
       <div className="flex flex-col max-w-[33%] gap-5 ">
-        <span className="text-4xl font-semibold">
+        <h1 className="text-4xl font-semibold">
           Fun for them, made easy for you
-        </span>
+        </h1>
         <span>
           We at Luckey provide comprehensive management of your property,
           allowing you to earn extra income from renting your space, without the
@@ -23,19 +23,19 @@ const BookingSection = () => {
 
       <div className="flex flex-col gap-5 max-w-[20%] ">
         <div className="flex flex-col">
-          <span className="text-2xl font-semibold">Book Car</span>
+          <h1 className="text-2xl font-semibold">Book Car</h1>
           <span>Lorem ipsum dolor sit amet consectetur.</span>
           <div className="flex items-center space-x-2 mt-3">
-            <span>Start your trips</span>
+            <span className="underline">Start your trips</span>
             <FaArrowRightLong />
           </div>
         </div>
 
         <div className="flex flex-col">
-          <span className="text-2xl font-semibold">Book Hotel</span>
+          <h1 className="text-2xl font-semibold">Book Hotel</h1>
           <span>Lorem ipsum dolor sit amet consectetur.</span>
           <div className="flex items-center space-x-2 mt-3">
-            <span>Start your trips</span>
+            <span className="underline">Start your trips</span>
             <FaArrowRightLong />
           </div>
         </div>

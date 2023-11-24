@@ -10,7 +10,7 @@ const Gallery = () => {
   return (
     <div className="flex flex-col items-center text-[#0d3d4e] gap-3 mx-[10rem] ">
       <span className="font-medium">GALLERY OF OUR TRIPS</span>
-      <span className="text-5xl font-semibold ">Completed Journey</span>
+      <h1 className="text-5xl font-semibold ">Completed Journey</h1>
 
       <div className="bg-[#f0eded] -mx-[10rem] mt-[15rem]  ">
         <div className="grid grid-cols-3 gap-4 -my-[10rem] mx-[10rem] text-white  ">
@@ -21,7 +21,7 @@ const Gallery = () => {
               className="w-full h-[350px] rounded-2xl "
             />
             <div className="absolute flex flex-col bottom-5 left-5 z-20 ">
-              <span className="text-3xl font-semibold">Rome</span>
+              <h1 className="text-3xl font-semibold">Rome</h1>
               <span className="font-extralight">543 user travel here</span>
             </div>
             <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#44616b] to-transparent  h-[200px] z-10 rounded-2xl  "></div>
@@ -33,7 +33,7 @@ const Gallery = () => {
               className="w-full h-[350px] rounded-2xl "
             />
              <div className="absolute flex flex-col bottom-5 left-5 z-20 ">
-              <span className="text-3xl font-semibold">Milan</span>
+              <h1 className="text-3xl font-semibold">Milan</h1>
               <span className="font-extralight">543 user travel here</span>
             </div>
             <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#44616b] to-transparent  h-[200px] z-10 rounded-2xl  "></div>
@@ -46,7 +46,7 @@ const Gallery = () => {
               className="w-full h-[350px] rounded-2xl"
             />
              <div className="absolute flex flex-col bottom-5 left-5 z-20 ">
-              <span className="text-3xl font-semibold">Raja Ampat</span>
+              <h1 className="text-3xl font-semibold">Raja Ampat</h1>
               <span className="font-extralight">53 user travel here</span>
             </div>
             <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#44616b] to-transparent  h-[200px] z-10 rounded-2xl  "></div>
@@ -58,7 +58,7 @@ const Gallery = () => {
               className="w-full h-[350px] rounded-2xl"
             />
              <div className="absolute flex flex-col bottom-5 left-5 z-20 ">
-              <span className="text-3xl font-semibold">Tiga Warna</span>
+              <h1 className="text-3xl font-semibold">Tiga Warna</h1>
               <span className="font-extralight">513 user travel here</span>
             </div>
             <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#44616b] to-transparent  h-[200px] z-10 rounded-2xl  "></div>
@@ -70,7 +70,7 @@ const Gallery = () => {
               className="w-full h-[350px] rounded-2xl "
             />
              <div className="absolute flex flex-col bottom-5 left-5 z-20">
-              <span className="text-3xl font-semibold">Sempu Beach</span>
+              <h1 className="text-3xl font-semibold">Sempu Beach</h1>
               <span className="font-extralight">213 user travel here</span>
             </div>
             <div className="absolute bottom-0 w-full bg-gradient-to-t from-[#44616b] to-transparent  h-[200px] z-10 rounded-2xl  "></div>
@@ -78,7 +78,7 @@ const Gallery = () => {
         </div>
 
         <div className="flex justify-center mx-[10rem] mt-[12rem] mb-20 ">
-          <button className="bg-[#d9ed82] text-[#0d3d4e] px-16 py-3 rounded-full font-semibold ">
+          <button className="bg-[#d9ed82] text-[#0d3d4e] text-xs px-16 py-3 rounded-full font-semibold ">
             More Journey
           </button>
         </div>

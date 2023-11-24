@@ -5,6 +5,10 @@ import img1 from "../assets/bali.webp";
 import img2 from "../assets/my-kines-island.webp";
 import img3 from "../assets/uludag.jpeg";
 import img4 from "../assets/bern.jpg";
+import indonesia from "../assets/indonesia-flag.png";
+import turkey from "../assets/turkey-flag.png";
+import swiss from "../assets/swiss-flag.png";
+
 
 const PopularDestinations = () => {
   return (
@@ -12,7 +16,7 @@ const PopularDestinations = () => {
       <div className="flex flex-col mx-[10rem] ">
         <span className="font-medium ">WHERE TO GO</span>
         <div className="flex justify-between mt-2">
-          <span className="text-4xl font-semibold ">Popular destinations</span>
+          <h1 className="text-4xl font-semibold ">Popular destinations</h1>
           <div className="flex gap-5">
             <button className="border border-[#0d3d4e] rounded-full px-4 py-2 text-[#0d3d4e] ">
               <FaArrowLeftLong />
@@ -32,8 +36,11 @@ const PopularDestinations = () => {
             className="rounded-[20px] w-[350px] h-[500px] "
           />
           <div className="flex flex-col space-y-3 absolute bottom-5 justify-center left-14 items-center text-white">
-            <span className="text-3xl font-semibold">Bali</span>
+            <h1 className="text-3xl font-semibold">Bali</h1>
+            <div className="flex space-x-2 items-center">
+            <Image src={indonesia} alt="flag-icon" className="rounded-full w-[20px] h-[20px]" />
             <span className="font-medium">Indonesia</span>
+            </div>
             <span className="font-light">543 wants to travel here</span>
           </div>
         </div>
@@ -44,8 +51,11 @@ const PopularDestinations = () => {
             className="rounded-[20px] w-[350px] h-[500px] "
           />
           <div className="flex flex-col space-y-3 absolute bottom-5 justify-center left-14 items-center text-white">
-            <span className="text-3xl font-semibold">MyKines Island</span>
+            <h1 className="text-3xl font-semibold">MyKines Island</h1>
+            <div className="flex space-x-2 items-center">
+            <Image src={indonesia} alt="flag-icon" className="rounded-full w-[20px] h-[20px]" />
             <span className="font-medium">Indonesia</span>
+            </div>
             <span className="font-light">312 wants to travel here</span>
           </div>
         </div>
@@ -56,8 +66,11 @@ const PopularDestinations = () => {
             className="rounded-[20px] w-[350px] h-[500px] "
           />
           <div className="flex flex-col space-y-3 absolute bottom-5 justify-center left-14 items-center text-white">
-            <span className="text-3xl font-semibold">Uludag</span>
+            <h1 className="text-3xl font-semibold">Uludag</h1>
+            <div className="flex space-x-2 items-center">
+            <Image src={turkey} alt="flag-icon" className="rounded-full w-[20px] h-[20px]" />
             <span className="font-medium">Turkey</span>
+            </div>
             <span className="font-light">543 wants to travel here</span>
           </div>
         </div>
@@ -68,8 +81,11 @@ const PopularDestinations = () => {
             className="rounded-[20px] w-[350px] h-[500px] "
           />
           <div className="flex flex-col space-y-3 absolute bottom-5 justify-center left-14 items-center text-white">
-            <span className="text-3xl font-semibold">Bern</span>
+            <h1 className="text-3xl font-semibold">Bern</h1>
+            <div className="flex space-x-2 items-center">
+            <Image src={swiss} alt="flag-icon" className="rounded-full w-[20px] h-[20px]" />
             <span className="font-medium">Swiss</span>
+            </div>
             <span className="font-light">80 wants to travel here</span>
           </div>
         </div>

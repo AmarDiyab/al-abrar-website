@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Anglecia-Pro;
+  src: url("/app/fonts/Anglecia-Pro-Display.otf") format("otf")
+}
 
 body {
   background-color: #f4f4f4;
+}
+
+h1 {
+  font-family: Anglecia-Pro;
 }
