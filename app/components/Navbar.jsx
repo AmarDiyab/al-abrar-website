@@ -1,11 +1,17 @@
+"use client"
 import { Navbar as Nav, NavbarBrand, NavbarContent, NavbarItem, Link } from '@nextui-org/react'
-import Image from 'next/image'
-// import Link from 'next/link'
 import React from 'react'
+import { Drawer, useMediaQuery } from '@mui/material'
+// import Image from 'next/image'
 // import logo from "../assets/logo.jpeg";
 
 const Navbar = () => {
+    const matches = useMediaQuery("(max-width:639px)");
+
   return (
+    <>
+    {!matches ? (
+
     <Nav className='px-[10rem] py-5 text-white z-50 relative items-center ' >
         <NavbarBrand>
             {/* <Image src="/" alt='logo' /> */}
@@ -39,6 +45,13 @@ const Navbar = () => {
             </NavbarItem>
         </NavbarContent>
     </Nav>
+
+) : (
+   <div>
+    <span>Hello</span>
+   </div>
+)}
+    </>
   )
 }
 

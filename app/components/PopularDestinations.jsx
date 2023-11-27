@@ -16,16 +16,16 @@ import "swiper/css";
 const PopularDestinations = () => {
   return (
     <div className="flex flex-col mt-[5rem] text-[#0d3d4d] ">
-      <div className="flex flex-col mx-[10rem] ">
-        <span className="font-medium ">WHERE TO GO</span>
+      <div className="flex flex-col mx-[10rem] sm:mx-[2rem] ">
+        <span className="font-medium sm:text-xs">WHERE TO GO</span>
         <div className="flex justify-between mt-2">
-          <h1 className="text-4xl font-semibold ">Popular destinations</h1>
-          <div className="flex gap-5">
-            <button className="border border-[#0d3d4e] rounded-full px-4 py-2 text-[#0d3d4e] hover:bg-[#0d3d4e] hover:text-white ">
-              <FaArrowLeftLong />
+          <h1 className="text-4xl font-semibold sm:text-3xl ">Popular destinations</h1>
+          <div className="flex gap-2">
+            <button className="border border-[#0d3d4e] rounded-full px-4 py-2 sm:py-1 sm:h-[25px]  text-[#0d3d4e] hover:bg-[#0d3d4e] hover:text-white ">
+              <FaArrowLeftLong className="sm:w-[8px] " />
             </button>
-            <button className="border border-[#0d3d4e] rounded-full px-4 py-2 text-[#0d3d4e] hover:bg-[#0d3d4e] hover:text-white ">
-              <FaArrowRightLong />
+            <button className="border border-[#0d3d4e] rounded-full px-4 py-2 sm:py-1 sm:h-[25px] text-[#0d3d4e] hover:bg-[#0d3d4e] hover:text-white ">
+              <FaArrowRightLong className="sm:w-[8px] " />
             </button>
           </div>
         </div>

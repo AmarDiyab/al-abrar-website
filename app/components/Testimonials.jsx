@@ -10,10 +10,10 @@ import avatar3 from "../assets/avatar3.png";
 
 const Testimonials = () => {
   return (
-    <div className="flex mx-[10rem] my-[5rem] text-[#0d3d4e] justify-between ">
-      <div className="flex flex-col max-w-[50%] space-y-5">
-        <h1 className="text-5xl font-semibold">What our happy client</h1>
-        <span>
+    <div className="flex mx-[10rem] sm:mx-[3rem] sm:flex-wrap-reverse my-[5rem] text-[#0d3d4e] justify-between ">
+      <div className="flex flex-col max-w-[50%] sm:max-w-[100%] sm:items-center space-y-5">
+        <h1 className="text-5xl font-semibold sm:text-center">What our happy client says</h1>
+        <span className="sm:text-center">
           <i>&quot;</i>Jhon De is a native of the redion Che wac a hoet horcelf
           before she started offering her service to other people, so she knows
           about the necessity to have someone to take care of all the little
