@@ -46,7 +46,7 @@ const PopularDestinations = () => {
           modules={[Navigation]}
           breakpoints={{
             '@0.00': {
-              slidesPerView: 1.5,
+              slidesPerView: 1.25,
               spaceBetween: 20,
             },
             '@1.00': {
@@ -66,7 +66,7 @@ const PopularDestinations = () => {
                 alt="img"
                 className="object-cover rounded-2xl h-[500px]  group-hover:h-[550px] transition-all duration-300 ease-in-out "
               />
-              <div className="flex flex-col space-y-2 items-center absolute bottom-20 left-12 text-white z-30">
+              <div className="flex flex-col space-y-2 items-center justify-center absolute bottom-20 left-[10%] sm:left-[5%] text-white z-30 text-center">
                 <h1 className="text-3xl font-semibold">Bali</h1>
                 <div className="flex space-x-2 items-center">
                   <Image
@@ -74,11 +74,11 @@ const PopularDestinations = () => {
                     alt="flag-icon"
                     className="rounded-full w-[20px] h-[20px]"
                   />
-                  <span className="font-medium">Indonesia</span>
+                  <span className="font-medium text-center">Indonesia</span>
                 </div>
                 <span className="font-light">543 wants to travel here</span>
               </div>
-              <div className="absolute flex justify-center items-center bottom-7 left-16 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out  ">
+              <div className="absolute flex justify-center items-center bottom-7 left-[20%] sm:left-[15%] opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out  ">
                 <button className="bg-[#d9ed83] text-[#0d3d4e] hover:bg-[#d6e59a] px-5 py-3 rounded-full text-xs font-semibold ">
                   I want to travel here
                 </button>
@@ -93,19 +93,19 @@ const PopularDestinations = () => {
                 alt="img"
                 className="object-cover rounded-2xl h-[500px]  group-hover:h-[550px] transition-all duration-300 ease-in-out "
               />
-              <div className="flex flex-col space-y-2 items-center absolute bottom-20 left-12 text-white z-30">
-                <h1 className="text-3xl font-semibold">MyKines Island</h1>
+              <div className="flex flex-col space-y-2 items-center justify-center absolute bottom-20 left-[10%] text-white z-30">
+                <h1 className="text-3xl font-semibold text-center">MyKines Island</h1>
                 <div className="flex space-x-2 items-center">
                   <Image
                     src={indonesia}
                     alt="flag-icon"
                     className="rounded-full w-[20px] h-[20px]"
                   />
-                  <span className="font-medium">Indonesia</span>
+                  <span className="font-medium text-center">Indonesia</span>
                 </div>
-                <span className="font-light">312 wants to travel here</span>
+                <span className="font-ligh">312 wants to travel here</span>
               </div>
-              <div className="absolute flex justify-center items-center bottom-7 left-16 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out  ">
+              <div className="absolute flex justify-center items-center bottom-7 left-[20%] sm:left-[15%] opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out  ">
                 <button className="bg-[#d9ed83] text-[#0d3d4e] hover:bg-[#d6e59a] px-5 py-3 rounded-full text-xs font-semibold ">
                   I want to travel here
                 </button>
@@ -120,7 +120,7 @@ const PopularDestinations = () => {
                 alt="img"
                 className="object-cover rounded-2xl h-[500px]  group-hover:h-[550px] transition-all duration-300 ease-in-out "
               />
-              <div className="flex flex-col space-y-2 items-center absolute bottom-20 left-12 text-white z-30">
+              <div className="flex flex-col space-y-2 items-center absolute bottom-20 left-[10%] sm:left-[5%] text-white z-30">
                 <h1 className="text-3xl font-semibold">Uludag</h1>
                 <div className="flex space-x-2 items-center">
                   <Image
@@ -132,7 +132,7 @@ const PopularDestinations = () => {
                 </div>
                 <span className="font-light">543 wants to travel here</span>
               </div>
-              <div className="absolute flex justify-center items-center bottom-7 left-16 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out  ">
+              <div className="absolute flex justify-center items-center bottom-7 left-[20%] sm:left-[10%] opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out  ">
                 <button className="bg-[#d9ed83] text-[#0d3d4e] hover:bg-[#d6e59a] px-5 py-3 rounded-full text-xs font-semibold ">
                   I want to travel here
                 </button>
@@ -147,7 +147,7 @@ const PopularDestinations = () => {
                 alt="img"
                 className="object-cover rounded-2xl h-[500px]  group-hover:h-[550px] transition-all duration-300 ease-in-out "
               />
-              <div className="flex flex-col space-y-2 items-center absolute bottom-20 left-12 text-white z-30">
+              <div className="flex flex-col space-y-2 items-center absolute bottom-20 left-[10%] sm:left-[5%] text-white z-30">
                 <h1 className="text-3xl font-semibold">Bern</h1>
                 <div className="flex space-x-2 items-center">
                   <Image
@@ -159,7 +159,7 @@ const PopularDestinations = () => {
                 </div>
                 <span className="font-light">80 wants to travel here</span>
               </div>
-              <div className="absolute flex justify-center items-center bottom-7 left-16 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out  ">
+              <div className="absolute flex justify-center items-center bottom-7 left-[20%] sm:left-[10%] opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out  ">
                 <button className="bg-[#d9ed83] text-[#0d3d4e] hover:bg-[#d6e59a] px-5 py-3 rounded-full text-xs font-semibold ">
                   I want to travel here
                 </button>
@@ -174,7 +174,7 @@ const PopularDestinations = () => {
                 alt="img"
                 className="object-cover rounded-2xl h-[500px]  group-hover:h-[550px] transition-all duration-300 ease-in-out "
               />
-              <div className="flex flex-col space-y-2 items-center absolute bottom-20 left-12 text-white z-30">
+              <div className="flex flex-col space-y-2 items-center absolute bottom-20 left-[10%] sm:left-[5%] text-white z-30">
                 <h1 className="text-3xl font-semibold">Bali</h1>
                 <div className="flex space-x-2 items-center">
                   <Image
@@ -186,7 +186,7 @@ const PopularDestinations = () => {
                 </div>
                 <span className="font-light">543 wants to travel here</span>
               </div>
-              <div className="absolute flex justify-center items-center bottom-7 left-16 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out  ">
+              <div className="absolute flex justify-center items-center bottom-7 left-[20%] sm:left-[10%] opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out  ">
                 <button className="bg-[#d9ed83] text-[#0d3d4e] hover:bg-[#d6e59a] px-5 py-3 rounded-full text-xs font-semibold ">
                   I want to travel here
                 </button>
@@ -201,7 +201,7 @@ const PopularDestinations = () => {
                 alt="img"
                 className="object-cover rounded-2xl h-[500px]  group-hover:h-[550px] transition-all duration-300 ease-in-out "
               />
-              <div className="flex flex-col space-y-2 items-center absolute bottom-20 left-12 text-white z-30">
+              <div className="flex flex-col space-y-2 items-center absolute bottom-20 left-[10%] sm:left-[8%] text-white z-30">
                 <h1 className="text-3xl font-semibold">Bali</h1>
                 <div className="flex space-x-2 items-center">
                   <Image
@@ -213,7 +213,7 @@ const PopularDestinations = () => {
                 </div>
                 <span className="font-light">543 wants to travel here</span>
               </div>
-              <div className="absolute flex justify-center items-center bottom-7 left-16 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out  ">
+              <div className="absolute flex justify-center items-center bottom-7 left-[20%] sm:left-[12%] opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out  ">
                 <button className="bg-[#d9ed83] text-[#0d3d4e] hover:bg-[#d6e59a] px-5 py-3 rounded-full text-xs font-semibold ">
                   I want to travel here
                 </button>

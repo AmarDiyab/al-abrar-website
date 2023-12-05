@@ -18,7 +18,7 @@ const BookingSection = () => {
       </div>
 
       <div className="max-w-[40%] sm:max-w-[100%]">
-        <Image src={img} alt="Image" className="h-[300px] w-[300px] " />
+        <Image src={img} alt="Image" className="h-[300px] w-[300px] object-cover rounded-2xl " />
       </div>
 
       <div className="flex flex-col gap-5 sm:gap-10 max-w-[20%] sm:max-w-[100%] ">
