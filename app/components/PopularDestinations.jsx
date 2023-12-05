@@ -13,6 +13,8 @@ import swiss from "../assets/swiss-flag.png";
 
 import "swiper/css";
 
+import { Navigation } from "swiper/modules";
+
 const PopularDestinations = () => {
   return (
     <div className="flex flex-col mt-[5rem] text-[#0d3d4d] ">
@@ -21,22 +23,41 @@ const PopularDestinations = () => {
         <div className="flex justify-between mt-2">
           <h1 className="text-4xl font-semibold sm:text-3xl ">Popular destinations</h1>
           <div className="flex gap-2">
-            <button className="border border-[#0d3d4e] rounded-full px-4 py-2 sm:py-1 sm:h-[25px]  text-[#0d3d4e] hover:bg-[#0d3d4e] hover:text-white ">
+            <button className="prev-btn border border-[#0d3d4e] rounded-full px-4 py-2 sm:py-1 sm:h-[25px]  text-[#0d3d4e] hover:bg-[#0d3d4e] hover:text-white ">
               <FaArrowLeftLong className="sm:w-[8px] " />
             </button>
-            <button className="border border-[#0d3d4e] rounded-full px-4 py-2 sm:py-1 sm:h-[25px] text-[#0d3d4e] hover:bg-[#0d3d4e] hover:text-white ">
+            <button className="next-btn border border-[#0d3d4e] rounded-full px-4 py-2 sm:py-1 sm:h-[25px] text-[#0d3d4e] hover:bg-[#0d3d4e] hover:text-white ">
               <FaArrowRightLong className="sm:w-[8px] " />
             </button>
           </div>
         </div>
       </div>
 
-      <div className="ml-[10rem] ">
+      <div className="ml-[10rem] sm:ml-[2rem] ">
         <Swiper
           draggable={true}
           slidesPerView={3.75}
           spaceBetween={50}
           className="mt-10"
+          navigation={{
+            nextEl: ".next-btn",
+            prevEl: ".prev-btn"
+          }}
+          modules={[Navigation]}
+          breakpoints={{
+            '@0.00': {
+              slidesPerView: 1.5,
+              spaceBetween: 20,
+            },
+            '@1.00': {
+              slidesPerView: 3.5,
+              spaceBetween: 30,
+            },
+            '@1.50': {
+              slidesPerView: 4.5,
+              spaceBetween: 50,
+            },
+          }}
         >
           <SwiperSlide>
             <div className="group relative h-[550px]">
