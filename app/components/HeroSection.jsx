@@ -53,11 +53,26 @@ const HeroSection = () => {
           modules={[Navigation]}
           navigation={{
             nextEl: ".next-btn",
-            prevEl: ".prev-btn"
+            prevEl: ".prev-btn",
+          }}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+              slidesPerGroup: 1,
+            },
+            640: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+              spaceBetween: 20,
+            },
+            1280: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            }
           }}
         >
-          <SwiperSlide className="flex flex-col space-y-2 sm:text-center">
-            <h1 className="text-2xl font-medium">01</h1>
+          <SwiperSlide className="flex flex-col space-y-2 sm:text-center ">
+            <h1 className="text-2xl font-medium ">01</h1>
             <span className="font-medium text-lg sm:text-xs ">
               Choose place, activity and time
             </span>
@@ -67,7 +82,7 @@ const HeroSection = () => {
             </span>
           </SwiperSlide>
 
-          <SwiperSlide className="flex flex-col space-y-2  ">
+          <SwiperSlide className="flex flex-col space-y-2 sm:text-center ">
             <h1 className="text-2xl font-medium">02</h1>
             <span className="font-medium text-lg sm:text-xs">
               Find people who have the same...
@@ -78,7 +93,7 @@ const HeroSection = () => {
             </span>
           </SwiperSlide>
 
-          <SwiperSlide className="flex flex-col space-y-2 ">
+          <SwiperSlide className="flex flex-col space-y-2 sm:text-center">
             <h1 className="text-2xl font-medium">03</h1>
             <span className="font-medium text-lg sm:text-xs">
               Start chat and offer to go on...
@@ -89,7 +104,7 @@ const HeroSection = () => {
             </span>
           </SwiperSlide>
 
-          <SwiperSlide className="flex flex-col space-y-2  ">
+          <SwiperSlide className="flex flex-col space-y-2 sm:text-center ">
             <h1 className="text-2xl font-medium">04</h1>
             <span className="font-medium text-lg sm:text-xs">
               Find people who have the same...
@@ -100,7 +115,7 @@ const HeroSection = () => {
             </span>
           </SwiperSlide>
 
-          <SwiperSlide className="flex flex-col space-y-2 ">
+          <SwiperSlide className="flex flex-col space-y-2 sm:text-center">
             <h1 className="text-2xl font-medium">05</h1>
             <span className="font-medium text-lg sm:text-xs">
               Start chat and offer to go on...
@@ -111,7 +126,7 @@ const HeroSection = () => {
             </span>
           </SwiperSlide>
 
-          <SwiperSlide className="flex flex-col space-y-2 ">
+          <SwiperSlide className="flex flex-col space-y-2 sm:text-center">
             <h1 className="text-2xl font-medium">06</h1>
             <span className="font-medium text-lg sm:text-xs">
               Start chat and offer to go on...
