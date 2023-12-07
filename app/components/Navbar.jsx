@@ -12,7 +12,7 @@ const Navbar = () => {
     <>
     {!matches ? (
 
-    <Nav className='px-[10rem] py-5 text-white z-50 relative items-center ' >
+    <Nav className='px-[10rem] py-5 text-white z-50 relative items-center w-[100vw] ' >
         <NavbarBrand>
             {/* <Image src="/" alt='logo' /> */}
             <span className='text-2xl'>Al Abrar</span>
