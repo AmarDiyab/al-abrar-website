@@ -81,7 +81,7 @@ const Gallery = () => {
         </div>
 
         <div className="flex justify-center mx-[10rem] mt-[12rem] mb-20 ">
-          <button className="bg-[#d9ed82] text-[#0d3d4e] text-xs px-16 py-3 rounded-full font-semibold ">
+          <button className="bg-[#d9ed82] hover:bg-[#d6e59a] text-[#0d3d4e] text-xs px-16 py-3 rounded-full font-semibold ">
             More Journey
           </button>
         </div>

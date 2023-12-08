@@ -88,7 +88,6 @@ const PopularDestinations = () => {
             </div>
           </SwiperSlide>
 
-          {/* PAKKA SLIDE */}
           <SwiperSlide>
             <div className="group relative h-[550px]">
               <Image
